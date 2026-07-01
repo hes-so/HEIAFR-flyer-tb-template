@@ -1,0 +1,16 @@
+version = 1
+
+[[annotations]]
+path = [
+    "**/*.svg",
+    "**/*.png",
+    "**/*.jpg",
+    "**/*.toml",
+    "README.md",
+    ".gitignore",
+    ".pre-commit-config.yaml",
+    ".github/workflows/check.yml",
+    "template/profs.typ",
+]
+SPDX-FileCopyrightText = "2026 Jacques Supcik <jacques.supcik@hes-so.ch>"
+SPDX-License-Identifier = "MIT"

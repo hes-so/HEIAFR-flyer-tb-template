@@ -1,0 +1,163 @@
+[flyer.subtitle]
+fr = "Résumé travail de Bachelor"
+de = "Zusammenfassung Bachelorarbeit"
+en = "Bachelor Abstract"
+
+[program.ISC]
+fr = "Informatique et Systèmes de Communication"
+de = "Informatik und Kommunikationssysteme"
+en = "Computer Science and Communication Systems"
+
+[program.GE]
+fr = "Génie Électrique"
+de = "Elektrotechnik"
+en = "Electrical Engineering"
+
+[prog.GM]
+fr = "Génie Mécanique"
+de = "Maschinentechnik"
+en = "Mechanical Engineering"
+
+[address]
+fr = """
+Haute école d'ingénierie et d'architecture de Fribourg #sym.circle.filled.tiny
+Bd de Pérolles 80 #sym.circle.filled.tiny
+CH-1700 Fribourg #sym.circle.filled.tiny
++41 26 429 66 11 #sym.circle.filled.tiny
+#link("info@hefr.ch")
+"""
+de = """
+Hochschule für Technik und Architektur Freiburg #sym.circle.filled.tiny
+Pérolles 80 #sym.circle.filled.tiny
+CH-1700 Freiburg #sym.circle.filled.tiny
++41 26 429 66 11 #sym.circle.filled.tiny
+#link("info@hefr.ch")
+"""
+
+en="""
+School of Engineering and Architecture of Fribourg #sym.circle.filled.tiny
+Bd de Pérolles 80 #sym.circle.filled.tiny
+CH-1700 Fribourg #sym.circle.filled.tiny
++41 26 429 66 11 #sym.circle.filled.tiny
+#link("info@hefr.ch")
+"""
+
+[client]
+fr = "Mandant"
+de = "Auftraggeber/in"
+en = "Commissionned by"
+
+[int_contact]
+fr = "Contact interne"
+de = "Interner Kontakt"
+en = "Internal contact"
+
+[theme]
+fr = "Thématique"
+de = "Thema"
+en = "Theme"
+
+[acronym]
+fr = "Acronyme du projet"
+de = "Kurzzeichen Projekt"
+en = "Project Abbreviation"
+
+[number]
+fr = "No interne ou filière"
+de = "Interne Projekt-nr."
+en = "Internal project Nr."
+
+[sdg]
+fr = "Objectifs de développement durable"
+de = "Nachhaltigkeitziele"
+en = "Sustainability goals"
+
+[student.MS]
+fr = "Étudiant"
+de = "Student"
+en = "Student"
+
+[student.MP]
+fr = "Étudiants"
+de = "Studenten"
+en = "Students"
+
+[student.FS]
+fr = "Étudiante"
+de = "Studentin"
+en = "Student"
+
+[student.FP]
+fr = "Étudiantes"
+de = "Studentinnen"
+en = "Students"
+
+[student.XS]
+fr = "Étudiant-e"
+de = "Student-in"
+en = "Student"
+
+[student.XP]
+fr = "Étudiant-e-s"
+de = "Student-in-nen"
+en = "Students"
+
+[professor.MS]
+fr = "Professeur"
+de = "Dozent"
+en = "Supervisor"
+
+[professor.MP]
+fr = "Professeurs"
+de = "Dozenten"
+en = "Supervisors"
+
+[professor.FS]
+fr = "Professeure"
+de = "Dozentin"
+en = "Supervisor"
+
+[professor.FP]
+fr = "Professeures"
+de = "Dozentinnen"
+en = "Supervisors"
+
+[professor.XS]
+fr = "Professeur-e"
+de = "Dozent-in"
+en = "Supervisor"
+
+[professor.XP]
+fr = "Professeur-e-s"
+de = "Dozent-in-nen"
+en = "Supervisors"
+
+[expert.MS]
+fr = "Expert"
+de = "Experte"
+en = "Expert"
+
+[expert.MP]
+fr = "Experts"
+de = "Experten"
+en = "Experts"
+
+[expert.FS]
+fr = "Experte"
+de = "Expertin"
+en = "Expert"
+
+[expert.FP]
+fr = "Expertes"
+de = "Expertinnen"
+en = "Experts"
+
+[expert.XS]
+fr = "Expert-e"
+de = "Expert/Expertin"
+en = "Expert"
+
+[expert.XP]
+fr = "Expert-e-s"
+de = "Experte-n/Expertin-nen"
+en = "Experts"

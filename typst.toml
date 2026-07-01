@@ -1,0 +1,13 @@
+[package]
+name = "heiafr-flyer-tb"
+version = "0.1.0"
+entrypoint = "src/flyer.typ"
+authors = ["Jacques Supcik <jacques.supcik@hefr.ch>"]
+license = "MIT"
+description = "Typst template for Bachelor Flyer at HEIA-FR"
+categories = ["layout"]
+
+[template]
+path = "template"
+entrypoint = "main.typ"
+thumbnail = "thumbnail.png"
