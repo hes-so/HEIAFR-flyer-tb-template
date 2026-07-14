@@ -28,8 +28,8 @@ replace = "version = \"{new_version}\""
 
 [[tool.bumpversion.files]]
 filename = "template/main.typ"
-search = "hesso-oral-exam:{current_version}"
-replace = "hesso-oral-exam:{new_version}"
+search = "heiafr-flyer-tb:{current_version}"
+replace = "heiafr-flyer-tb:{new_version}"
 
 [[tool.bumpversion.files]]
 filename = "README.md"
