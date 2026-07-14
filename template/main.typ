@@ -7,7 +7,12 @@
 
 #import "@local/heiafr-flyer-tb:0.1.0": flyer, summary
 #import "profs.typ": CHB, SUP
-#set text(lang: "fr")
+
+// The "Official" font for the flyer is "Arial", but if you prefer
+// to use a free font, you can use "Liberation Sans" instead and hope
+// that nobody notices the difference!
+
+#set text(font: "Liberation Sans", lang: "fr")
 
 #let student = (
   first_name: "Albert",
@@ -47,6 +52,8 @@
   #summary([
     #lorem(40)
   ])
+
+  #set text(fill: black)
 
   == Sous-titre
   #lorem(70)

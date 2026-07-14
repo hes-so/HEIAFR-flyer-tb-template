@@ -9,6 +9,7 @@
 
 #let i18n = toml("i18n.toml")
 #let logos = toml("logos.toml")
+#let params = toml("params.toml")
 
 #let heia_blue = rgb("#007CB7")
 #let heia_grey = rgb("#ACA39A")
@@ -67,13 +68,15 @@
       #text(size: 8pt, weight: "bold", student_label)\
       #text(
         size: 10pt,
-        weight: "black",
+        weight: "bold",
         students.map(s => s.first_name + " " + s.last_name).join(" / "),
       )\
     ])
     #place(top + right, [
       #text(size: 8pt, weight: "bold", [#subtitle #year])\
-      #text(size: 9.5pt, weight: "regular", [#upper(program_label)])\
+      #text(size: 10pt, tracking: eval(params.program.tracking.at(program, default: "0")), weight: "regular", [#upper(
+        program_label,
+      )])\
     ])])
 ]
 
@@ -202,7 +205,7 @@
 ) = [
 
   #set page(margin: (x: 10mm, top: 40mm))
-  #set text(font: "Noto Sans")
+  #set text(fill: heia_blue, size: 10pt)
   #set page(
     header: header(
       program: program,
@@ -223,8 +226,8 @@
     sdg_goals: sdg_goals,
   )
 
-  #show heading.where(level: 1): set text(fill: heia_blue, size: 17pt)
-  #show heading.where(level: 2): set text(size: 11.5pt)
+  #show heading.where(level: 1): set text(fill: heia_blue, size: 18pt)
+  #show heading.where(level: 2): set text(size: 11pt)
 
   = #title
   #v(5mm)
