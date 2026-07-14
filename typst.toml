@@ -1,6 +1,6 @@
 [package]
 name = "heiafr-flyer-tb"
-version = "0.1.3"
+version = "0.1.4"
 entrypoint = "src/flyer.typ"
 authors = ["Jacques Supcik <jacques.supcik@hefr.ch>"]
 license = "MIT"
