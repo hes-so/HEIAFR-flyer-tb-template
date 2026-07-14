@@ -47,7 +47,7 @@ typst compile main.typ
 | Field   | Value                                     |
 |---------|-------------------------------------------|
 | Name    | `eiafr-flyer-tb`                          |
-| Version | `0.1.2`                                   |
+| Version | `0.1.3`                                   |
 | License | MIT                                       |
 | Author  | Jacques Supcik <jacques.supcik@hes-so.ch> |
 
