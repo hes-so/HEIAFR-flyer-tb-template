@@ -5,7 +5,7 @@
 // Example flyer for HEIA-FR Bachelor thesis summary
 // Jacques Supcik, July 2025
 
-#import "@local/heiafr-flyer-tb:0.1.1": flyer, summary
+#import "@local/heiafr-flyer-tb:0.1.2": flyer, summary
 #import "profs.typ": CHB, SUP
 
 // The "Official" font for the flyer is "Arial", but if you prefer
