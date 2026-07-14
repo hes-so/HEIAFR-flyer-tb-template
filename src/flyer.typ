@@ -74,9 +74,14 @@
     ])
     #place(top + right, [
       #text(size: 8pt, weight: "bold", [#subtitle #year])\
-      #text(size: 10pt, tracking: eval(params.program.tracking.at(program, default: "0")), weight: "regular", [#upper(
-        program_label,
-      )])\
+      #text(
+        size: 10pt,
+        tracking: eval(params.program.tracking.at(program, default: "0")),
+        weight: "regular",
+        [#upper(
+          program_label,
+        )],
+      )\
     ])])
 ]
 
